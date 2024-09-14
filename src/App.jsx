@@ -1,14 +1,14 @@
 
-import { useState } from 'react'
-import './App.css'
-import { ButtonContainer } from './components/ButtonContainer'
+import { useState } from 'react';
+import './App.css';
+import { ButtonContainer } from './components/ButtonContainer';
 
 function App() {
   const [color, setColor] = useState('#000000');
   const [color2, setColor2] = useState('#000000');
   const [color3, setColor3] = useState('#000000');
   const [color4, setColor4] = useState('#000000');
-  const [backgrounColor, setBackGroundColor] = useState('#b48e3d');
+  const [backgrounColor, setBackGroundColor] = useState('#e3cca7');
   
   const btnNames = [
     {
@@ -22,30 +22,30 @@ function App() {
   function randomColor(){
     const random = Math.floor(Math.random() * 10000000).toString(16);
     const randomBackground = Math.floor(Math.random() * 15158899).toString(16);
-    setColor('#' + random)
-    setBackGroundColor('#' + randomBackground)
+    setColor('#' + random);
+    setBackGroundColor('#' + randomBackground);
    
     
   }
   function randomColor2(){
     const random = Math.floor(Math.random() * 10000000).toString(16);
     const randomBackground = Math.floor(Math.random() * 15158899).toString(16);
-    setColor2('#' + random)
-    setBackGroundColor('#' + randomBackground)
+    setColor2('#' + random);
+    setBackGroundColor('#' + randomBackground);
     
   }
   function randomColor3(){
   const random = Math.floor(Math.random() * 10000000).toString(16);
     const randomBackground = Math.floor(Math.random() * 15158899).toString(16);
-    setColor3('#' + random)
-    setBackGroundColor('#' + randomBackground)
+    setColor3('#' + random);
+    setBackGroundColor('#' + randomBackground);
     
   }
   function randomColor4(){
     const random = Math.floor(Math.random() * 10000000).toString(16);
     const randomBackground = Math.floor(Math.random() * 15158899).toString(16);
-    setColor4('#' + random)
-    setBackGroundColor('#' + randomBackground)
+    setColor4('#' + random);
+    setBackGroundColor('#' + randomBackground);
     
   }
   
