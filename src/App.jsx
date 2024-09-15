@@ -4,13 +4,13 @@ import './App.css';
 import { ButtonContainer } from './components/ButtonContainer';
 
 function App() {
-  const [color, setColor] = useState('#000000');
-  const [color2, setColor2] = useState('#000000');
-  const [color3, setColor3] = useState('#000000');
-  const [color4, setColor4] = useState('#000000');
+  const [color, setColor] = useState('#0d6efd');
+  const [color2, setColor2] = useState('#6c757d');
+  const [color3, setColor3] = useState('#198754');
+  const [color4, setColor4] = useState('#dc3545');
   const [backgrounColor, setBackGroundColor] = useState('#e3cca7');
   
-  const btnNames = [
+  const btnNames = [ 
     {
       name1: 'Click me',
       name2: 'And me',
